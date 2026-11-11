@@ -1,0 +1,14 @@
+| 排名 | 视频（预览） | 品类 | 曝光 | 转化当量 | CTR | CVR | IPM | 保守指数 | 近期变化 |
+|---:|---|---|---:|---:|---:|---:|---:|---:|---:|
+| 1 | [【顺丰包邮真5G】月享1500GB流量，新款多功能5G随…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v03c8eg10000daqf92nog65mmmt3qb20) | 网络设备 | 370,532 | 17,310 | 6.59% | 70.85% | 46.72 | 6,929 | 新进场／无前期 |
+| 2 | [上班以后真的离不开它，明星好物快来直播间看看](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v03c8eg10000darndmvog65jvbvmmmog) | 手机平板与整机 | 264,770 | 8,984 | 4.75% | 71.49% | 33.93 | 6,275 | -24.3% |
+| 3 | [谁说别墅清洁只能买几台扫地机，选一台会坐电梯的不香吗？](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v03c8eg10000da3cbvfog65jf7t5erfg) | 智能家电与个护电器 | 248,345 | 7,777 | 4.05% | 77.32% | 31.32 | 4,593 | +5.9% |
+| 4 | [红米 K100 他来了！ 现在红米 K100双十一直播间…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v02033g10000dbg8sj7og65vmngtl5ig) | 手机平板与整机 | 463,806 | 8,418 | 4.74% | 38.28% | 18.15 | 3,812 | 新进场／无前期 |
+| 5 | [扫地机里的中央厨房？大疆这波操作真没想到 #大疆 #大疆…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v0dc8eg10000dag26v7og65qmie9ncrg) | 智能家电与个护电器 | 259,681 | 5,714 | 4.26% | 51.67% | 22.00 | 3,223 | -7.0% |
+| 6 | [大疆Nano超值优惠终于等到了！！！ #运动相机#大疆穿…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v0dc8eg10000db5pklnog65rf6384cdg) | 影像投影与安防 | 159,024 | 9,358 | 36.72% | 16.03% | 58.85 | 2,842 | 新进场／无前期 |
+| 7 | [开学装备别漏这一项，作业帮P60陪伴新学期！ #作业帮 …](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v020c0g10000db149uvog65ipkelmrl0) | 学习与翻译设备 | 195,623 | 3,389 | 3.01% | 57.50% | 17.32 | 2,835 | 新进场／无前期 |
+| 8 | [作业帮学习机智能伴学，带你沉浸式学习！ #作业帮  #学…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v020c0g10000db149uvog65v9ch4hqt0) | 学习与翻译设备 | 448,216 | 7,097 | 2.99% | 52.99% | 15.83 | 2,685 | 新进场／无前期 |
+| 9 | [小小机身大大能量，食堂清洁靠它就够了 #食堂清洁 #商用…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v0dc8eg10000d8plg0fog65i0iqbkuug) | 智能家电与个护电器 | 152,677 | 2,783 | 2.15% | 84.62% | 18.23 | 2,581 | +8.6% |
+| 10 | [新手也想拍出电影感大片，有Action 6就够了。 #大…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v0dc8eg10000dbbb31nog65m2eqke7o0) | 影像投影与安防 | 172,245 | 9,124 | 16.59% | 31.94% | 52.97 | 2,569 | 新进场／无前期 |
+| 11 | [如果这款耳机是苹果的产品，那么。。。 #安克耳机 #苹果…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v02033g10000d9i4r2vog65g1mterhc0) | 音频设备 | 244,764 | 11,586 | 28.13% | 16.83% | 47.34 | 2,506 | -11.7% |
+| 12 | [大疆宠粉活动进行中，Action 4到手才一千多 #大疆…](https://yuntu.oceanengine.com/yuntu_ng/content/shared/video_previewer?code=v02033g10000d77mm1vog65hkamkrdv0) | 影像投影与安防 | 809,075 | 51,742 | 8.08% | 79.11% | 63.95 | 2,465 | -0.3% |

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --page: oklch(0.16 0.025 255);
+  --panel: oklch(0.205 0.03 255);
+  --panel-raised: oklch(0.245 0.035 255);
+  --text: oklch(0.95 0.015 250);
+  --muted: oklch(0.70 0.03 250);
+  --line: oklch(0.34 0.035 255 / 0.72);
+  --blue: oklch(0.65 0.19 256);
+  --blue-soft: oklch(0.65 0.19 256 / 0.13);
+  --mint: oklch(0.78 0.13 174);
+  --amber: oklch(0.78 0.14 77);
+  --danger: oklch(0.72 0.17 25);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  color: var(--text);
+  background: var(--page);
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+body { margin: 0; min-width: 320px; min-height: 100dvh; background: var(--page); color: var(--text); font-size: 16px; line-height: 1.65; }
+button, input, select { font: inherit; }
+button, a, summary, select { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+button, input, select, a, summary { outline: none; }
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
+::selection { background: var(--blue); color: var(--text); }

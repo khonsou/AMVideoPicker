@@ -1,0 +1,72 @@
+<svg width="1200" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1200 720">
+<rect width="1200" height="720" x="0" y="0" fill="#FFFFFF"></rect>
+<path d="M202.5 262.8Q304.2 246.6 406 255.3" fill="none" pointer-events="visible" stroke="#94A3B8" stroke-width="2.2" stroke-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
+<path d="M0 0L8 12L0 9L-8 12L0 0Z" transform="matrix(-0.085,0.996,-0.996,-0.085,405.9626,255.2737)" fill="#94A3B8" fill-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M467.5 262.8Q569.2 246.6 671 255.3" fill="none" pointer-events="visible" stroke="#94A3B8" stroke-width="2.2" stroke-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
+<path d="M0 0L8 12L0 9L-8 12L0 0Z" transform="matrix(-0.085,0.996,-0.996,-0.085,670.9626,255.2737)" fill="#94A3B8" fill-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M732.5 262.8Q834.2 246.6 936 255.3" fill="none" pointer-events="visible" stroke="#94A3B8" stroke-width="2.2" stroke-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
+<path d="M0 0L8 12L0 9L-8 12L0 0Z" transform="matrix(-0.085,0.996,-0.996,-0.085,935.9626,255.2737)" fill="#94A3B8" fill-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M997.5 262.8Q904.1 385.5 782.6 478.9" fill="none" pointer-events="visible" stroke="#94A3B8" stroke-width="2.2" stroke-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
+<path d="M0 0L8 12L0 9L-8 12L0 0Z" transform="matrix(-0.609,-0.793,0.793,-0.609,782.6382,478.8619)" fill="#94A3B8" fill-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M732.5 515.3Q834.2 499.1 936 507.8" fill="none" pointer-events="visible" stroke="#94A3B8" stroke-width="2.2" stroke-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr0-cls-0"></path>
+<path d="M0 0L8 12L0 9L-8 12L0 0Z" transform="matrix(-0.085,0.996,-0.996,-0.085,935.9626,507.7737)" fill="#94A3B8" fill-opacity="0.5" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr0-cls-1"></path>
+<path d="M-0.5 -1L0.5 -1A0.5 0.5 0 0 1 1 -0.5L1 0.5A0.5 0.5 0 0 1 0.5 1L-0.5 1A0.5 0.5 0 0 1 -1 0.5L-1 -0.5A0.5 0.5 0 0 1 -0.5 -1Z" transform="matrix(90,0,0,34,202.5,262.8333)" fill="#8A94A6" fill-opacity="0.92" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr0-cls-2"></path>
+<path d="M-0.5 -1L0.5 -1A0.5 0.5 0 0 1 1 -0.5L1 0.5A0.5 0.5 0 0 1 0.5 1L-0.5 1A0.5 0.5 0 0 1 -1 0.5L-1 -0.5A0.5 0.5 0 0 1 -0.5 -1Z" transform="matrix(90,0,0,34,467.5,262.8333)" fill="#F5A623" fill-opacity="0.92" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr0-cls-3"></path>
+<path d="M-0.5 -1L0.5 -1A0.5 0.5 0 0 1 1 -0.5L1 0.5A0.5 0.5 0 0 1 0.5 1L-0.5 1A0.5 0.5 0 0 1 -1 0.5L-1 -0.5A0.5 0.5 0 0 1 -0.5 -1Z" transform="matrix(90,0,0,34,732.5,262.8333)" fill="#2F6BFF" fill-opacity="0.92" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M-0.5 -1L0.5 -1A0.5 0.5 0 0 1 1 -0.5L1 0.5A0.5 0.5 0 0 1 0.5 1L-0.5 1A0.5 0.5 0 0 1 -1 0.5L-1 -0.5A0.5 0.5 0 0 1 -0.5 -1Z" transform="matrix(90,0,0,34,997.5,262.8333)" fill="#16A085" fill-opacity="0.92" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="zr0-cls-5"></path>
+<path d="M-0.5 -1L0.5 -1A0.5 0.5 0 0 1 1 -0.5L1 0.5A0.5 0.5 0 0 1 0.5 1L-0.5 1A0.5 0.5 0 0 1 -1 0.5L-1 -0.5A0.5 0.5 0 0 1 -0.5 -1Z" transform="matrix(90,0,0,34,732.5,515.3333)" fill="#F5A623" fill-opacity="0.82" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="zr0-cls-3"></path>
+<path d="M-0.5 -1L0.5 -1A0.5 0.5 0 0 1 1 -0.5L1 0.5A0.5 0.5 0 0 1 0.5 1L-0.5 1A0.5 0.5 0 0 1 -1 0.5L-1 -0.5A0.5 0.5 0 0 1 -0.5 -1Z" transform="matrix(90,0,0,34,997.5,515.3333)" fill="#2F6BFF" fill-opacity="0.82" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="zr0-cls-4"></path>
+<path d="M-36.9 -23l73.8 0l0 46l-73.8 0Z" transform="translate(202.5 262.8333)" fill="none" pointer-events="visible" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="-11.5" transform="translate(202.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">原始日榜</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" xml:space="preserve" y="11.5" transform="translate(202.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">504,000 行</text>
+<path d="M-60 -23l120 0l0 46l-120 0Z" transform="translate(467.5 262.8333)" fill="none" pointer-events="visible" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="-11.5" transform="translate(467.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">质量闸门</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="11.5" transform="translate(467.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">去重·异常·缺失</text>
+<path d="M-60 -23l120 0l0 46l-120 0Z" transform="translate(732.5 262.8333)" fill="none" pointer-events="visible" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="-11.5" transform="translate(732.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">同层效率</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="11.5" transform="translate(732.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">品类×时长×收缩</text>
+<path d="M-60 -23l120 0l0 46l-120 0Z" transform="translate(997.5 262.8333)" fill="none" pointer-events="visible" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="-11.5" transform="translate(997.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">候选分层</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="11.5" transform="translate(997.5 262.8333)" fill="#FFFFFF" fill-opacity="0.92">复投·验证·衰退</text>
+<path d="M-76.6 -23l153.3 0l0 46l-153.3 0Z" transform="translate(732.5 515.3333)" fill="none" pointer-events="visible" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="-11.5" transform="translate(732.5 515.3333)" fill="#FFFFFF" fill-opacity="0.82">随机复投实验</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="11.5" transform="translate(732.5 515.3333)" fill="#FFFFFF" fill-opacity="0.82">同人群·同周期·SRM</text>
+<path d="M-67.5 -23l135 0l0 46l-135 0Z" transform="translate(997.5 515.3333)" fill="none" pointer-events="visible" class="zr0-cls-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="-11.5" transform="translate(997.5 515.3333)" fill="#FFFFFF" fill-opacity="0.82">财务与增量ROI</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" y="11.5" transform="translate(997.5 515.3333)" fill="#FFFFFF" fill-opacity="0.82">净收入·毛利·留白</text>
+<path d="M-5 -5l605.4 0l0 68l-605.4 0Z" transform="translate(41 29)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr0-cls-6"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:26px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:700;" xml:space="preserve" y="13" transform="translate(41 29)" fill="#17233D">3C 短视频 ROI 评估：从榜单代理到因果与财务闭环</text>
+<path d="M0 36l504 0l0 22l-504 0Z" transform="translate(41 29)" fill="none" pointer-events="visible" class="zr0-cls-6"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" y="47" transform="translate(41 29)" fill="#64748B">主排名回答“谁值得进入复投”，实验与财务数据才回答“谁真正创造增量利润”</text>
+<style ><![CDATA[
+.zr0-cls-0:hover {
+cursor:pointer;
+}
+.zr0-cls-1:hover {
+cursor:pointer;
+fill:rgba(162,179,202,1);
+}
+.zr0-cls-2:hover {
+cursor:pointer;
+fill:rgba(151,162,182,1);
+}
+.zr0-cls-3:hover {
+cursor:pointer;
+fill:rgba(255,182,38,1);
+}
+.zr0-cls-4:hover {
+cursor:pointer;
+fill:rgba(51,117,255,1);
+}
+.zr0-cls-5:hover {
+cursor:pointer;
+fill:rgba(24,176,146,1);
+}
+.zr0-cls-6:hover {
+pointer-events:none;
+}
+
+]]>
+
+</style>
+</svg>

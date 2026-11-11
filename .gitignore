@@ -1,0 +1,37 @@
+# Dependencies
+**/node_modules/
+
+# Production builds
+app/dist/
+dist-ssr/
+
+# Local source data and generated outputs
+/data/
+/outputs/
+/tools/
+/03_素材链接索引.csv
+
+# Logs and temporary files
+*.log
+*.local
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

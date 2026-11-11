@@ -1,0 +1,14 @@
+{
+  "name": "am-video-picker-data-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chart rendering tools for AMVideoPicker reports",
+  "scripts": {
+    "charts:render": "node render_charts.js",
+    "charts:convert": "node convert_charts.js"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "sharp": "^0.35.5"
+  }
+}

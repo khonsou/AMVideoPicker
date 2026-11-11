@@ -1,0 +1,80 @@
+<svg width="1400" height="820" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1400 820">
+<rect width="1400" height="820" x="0" y="0" fill="#FFFFFF"></rect>
+<text dominant-baseline="central" text-anchor="start" style="font-size:15px;font-family:sans-serif;" xml:space="preserve" y="7.5" transform="translate(98 781)" fill="#475569">整体 CTR 2.92%　｜　整体点击后 CVR 5.33%　｜　整体 IPM 1.556</text>
+<path d="M812 672.5L1302 672.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-7"></path>
+<path d="M812 561.5L1302 561.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-7"></path>
+<path d="M812 451.5L1302 451.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-7"></path>
+<path d="M812 340.5L1302 340.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-7"></path>
+<path d="M812 229.5L1302 229.5" fill="none" pointer-events="visible" stroke="#dbdee4" class="zr1-cls-7"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" y="-6" transform="translate(812 214.6)" fill="#17233D">IPM（事件／千次曝光）</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(1057 710.4)" fill="#17233D">84 天窗口的三个 28 天分期</text>
+<path d="M812 672.5L1302 672.5" fill="none" pointer-events="visible" stroke="#54555a" stroke-linecap="round" class="zr1-cls-7"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" transform="translate(804 672.4)" fill="#54555a">0.0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" transform="translate(804 561.7)" fill="#54555a">0.5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" transform="translate(804 451)" fill="#54555a">1.0</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" transform="translate(804 340.3)" fill="#54555a">1.5</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" transform="translate(804 229.6)" fill="#54555a">2.0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:13px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" y="6.5" transform="translate(893.6667 680.4)" fill="#54555a">第1–4周</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:13px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" y="6.5" transform="translate(1057 680.4)" fill="#54555a">第5–8周</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:13px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" y="6.5" transform="translate(1220.3333 680.4)" fill="#54555a">第9–12周</text>
+<polyline points="482.5 254.3 506.5 254.3" fill="none" pointer-events="visible" stroke="#94A3B8" class="zr1-cls-8"></polyline>
+<polyline points="379 442.8 403 442.8" fill="none" pointer-events="visible" stroke="#94A3B8" class="zr1-cls-8"></polyline>
+<polyline points="375.9 631.3 399.9 631.3" fill="none" pointer-events="visible" stroke="#94A3B8" class="zr1-cls-8"></polyline>
+<polygon points="102.8 164 583.2 164 381.8 344.5 304.2 344.5" fill="#2F6BFF" stroke="#fff" stroke-linejoin="round" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr1-cls-9"></polygon>
+<polygon points="304.2 352.5 381.8 352.5 376.1 533.1 309.9 533.1" fill="#16A085" stroke="#fff" stroke-linejoin="round" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr1-cls-10"></polygon>
+<polygon points="309.9 541.1 376.1 541.1 375.8 721.6 310.2 721.6" fill="#F5A623" stroke="#fff" stroke-linejoin="round" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr1-cls-11"></polygon>
+<path d="M511.5 232.3l53.2 0l0 44l-53.2 0Z" fill="none" pointer-events="visible" class="zr1-cls-8"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" x="511.53063525210325" y="243.26666666666665" fill="#17233D">曝光</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" xml:space="preserve" x="511.53063525210325" y="265.26666666666665" fill="#17233D">81.71 亿</text>
+<path d="M408 420.8l45.4 0l0 44l-45.4 0Z" fill="none" pointer-events="visible" class="zr1-cls-8"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" x="407.9520254858087" y="431.79999999999995" fill="#17233D">点击</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" xml:space="preserve" x="407.9520254858087" y="453.79999999999995" fill="#17233D">2.39 亿</text>
+<path d="M404.9 609.3l84 0l0 44l-84 0Z" fill="none" pointer-events="visible" class="zr1-cls-8"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" x="404.92139023370544" y="620.3333333333333" fill="#17233D">转化事件当量</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:600;" xml:space="preserve" x="404.92139023370544" y="642.3333333333333" fill="#17233D">1271.2 万</text>
+<g clip-path="url(#zr1-c0)">
+<path d="M893.7 316.8L1057 310.6L1220.3 352.9" fill="none" pointer-events="visible" stroke="#2F6BFF" stroke-width="4" stroke-linejoin="bevel" class="zr1-cls-8"></path>
+</g>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(6,0,0,6,893.6667,316.8316)" fill="#2F6BFF" ecmeta_series_index="1" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="zr1-cls-9"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(6,0,0,6,1057,310.6324)" fill="#2F6BFF" ecmeta_series_index="1" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="zr1-cls-9"></path>
+<path d="M1 0A1 1 0 1 1 1 -0.1A1 1 0 0 1 1 0" transform="matrix(6,0,0,6,1220.3334,352.9198)" fill="#2F6BFF" ecmeta_series_index="1" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="zr1-cls-9"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:16px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:700;" y="-8" transform="translate(893.6667 305.8316)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1.606</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:16px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:700;" y="-8" transform="translate(1057 299.6324)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1.634</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:16px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:700;" y="-8" transform="translate(1220.3334 341.9198)" fill="#333" stroke="rgb(255,255,255)" stroke-width="2" paint-order="stroke" stroke-miterlimit="2">1.443</text>
+<path d="M-5 -5l452 0l0 68l-452 0Z" transform="translate(41 29)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="zr1-cls-7"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:26px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;font-weight:700;" y="13" transform="translate(41 29)" fill="#17233D">质量门槛后的转化代理漏斗与分期变化</text>
+<path d="M0 36l430.9 0l0 22l-430.9 0Z" transform="translate(41 29)" fill="none" pointer-events="visible" class="zr1-cls-7"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:14px;font-family:PingFang SC, Microsoft YaHei, Arial, sans-serif;" y="47" transform="translate(41 29)" fill="#64748B">转化是平台事件当量，不等同支付订单；IPM＝每千次曝光转化事件数</text>
+<defs >
+<clipPath id="zr1-c0">
+<path d="M810 227.6l494 0l0 446.8l-494 0Z" fill="#000" class="zr1-cls-12"></path>
+</clipPath>
+</defs>
+<style ><![CDATA[
+.zr1-cls-7:hover {
+pointer-events:none;
+}
+.zr1-cls-8:hover {
+cursor:pointer;
+}
+.zr1-cls-9:hover {
+cursor:pointer;
+fill:rgba(51,117,255,1);
+}
+.zr1-cls-10:hover {
+cursor:pointer;
+fill:rgba(24,176,146,1);
+}
+.zr1-cls-11:hover {
+cursor:pointer;
+fill:rgba(255,182,38,1);
+}
+.zr1-cls-12:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+
+]]>
+
+</style>
+</svg>
