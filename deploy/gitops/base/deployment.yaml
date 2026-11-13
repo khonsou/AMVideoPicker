@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: am-video-picker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: am-video-picker
+  template:
+    metadata:
+      labels:
+        app: am-video-picker
+    spec:
+      containers:
+        - name: am-video-picker
+          image: am-video-picker
+          imagePullPolicy: Always
+          ports:
+            - name: http
+              containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 3
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 10m
+              memory: 32Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
+      imagePullSecrets:
+        - name: aliyun-reg-secret

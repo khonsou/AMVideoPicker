@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: am-video-picker
+spec:
+  selector:
+    app: am-video-picker
+  ports:
+    - name: http
+      port: 80
+      targetPort: http

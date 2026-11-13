@@ -1,0 +1,152 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      image_tag:
+        description: "Existing image tag suffix to release (sha-...); leave empty to build current commit"
+        required: false
+        type: string
+      runner:
+        description: "Build runner"
+        required: true
+        default: github-hosted
+        type: choice
+        options:
+          - github-hosted
+          - self-hosted
+      push_image:
+        description: "Push the built image to ACR"
+        required: true
+        default: true
+        type: boolean
+      release:
+        description: "Update the test overlay after build/push"
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: am-video-picker-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - name: Build
+        working-directory: app
+        run: |
+          npm ci --no-audit --no-fund
+          npm run lint
+          npm run build
+      - uses: imranismail/setup-kustomize@v2
+        with:
+          kustomize-version: "5.4.3"
+      - run: kustomize build deploy/gitops/overlays/test > /dev/null
+
+  build:
+    if: |
+      (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')) ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.image_tag == '')
+    runs-on: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.runner == 'self-hosted') && 'self-hosted' || 'ubuntu-latest' }}
+    timeout-minutes: 30
+    concurrency:
+      group: am-video-picker-build
+      cancel-in-progress: false
+    outputs:
+      image_tag: ${{ steps.meta.outputs.image_tag }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compute image tag
+        id: meta
+        shell: bash
+        run: echo "image_tag=sha-${GITHUB_SHA::12}" >> "$GITHUB_OUTPUT"
+      - uses: docker/login-action@v3
+        if: github.event.inputs.push_image != 'false'
+        with:
+          registry: registry.cn-shenzhen.aliyuncs.com
+          username: ${{ secrets.ACR_USERNAME }}
+          password: ${{ secrets.ACR_PASSWORD }}
+      - name: Build image
+        shell: bash
+        env:
+          TAG: ${{ steps.meta.outputs.image_tag }}
+        run: |
+          set -euo pipefail
+          IMAGE="registry.cn-shenzhen.aliyuncs.com/angrymiao/am-video-picker:${TAG}"
+          docker build --progress=plain --platform linux/amd64 \
+            -f app/Dockerfile -t "$IMAGE" app
+      - name: Push image
+        if: github.event.inputs.push_image != 'false'
+        shell: bash
+        env:
+          TAG: ${{ steps.meta.outputs.image_tag }}
+        run: |
+          set -euo pipefail
+          docker push "registry.cn-shenzhen.aliyuncs.com/angrymiao/am-video-picker:${TAG}"
+
+  release:
+    needs: [build]
+    if: |
+      always() &&
+      (github.event_name != 'workflow_dispatch' || github.event.inputs.push_image != 'false') &&
+      (github.event_name != 'workflow_dispatch' || github.event.inputs.release != 'false') && (
+        (github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v') && needs.build.result == 'success') ||
+        (github.event_name == 'workflow_dispatch' && github.event.inputs.image_tag != '' && needs.build.result == 'skipped') ||
+        (github.event_name == 'workflow_dispatch' && github.event.inputs.image_tag == '' && needs.build.result == 'success')
+      )
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: imranismail/setup-kustomize@v2
+        with:
+          kustomize-version: "5.4.3"
+      - name: Update overlay image tag
+        shell: bash
+        env:
+          INPUT_IMAGE_TAG: ${{ github.event.inputs.image_tag }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${INPUT_IMAGE_TAG:-sha-${GITHUB_SHA::12}}"
+          REGISTRY="registry-vpc.cn-shenzhen.aliyuncs.com/angrymiao/am-video-picker"
+          cd deploy/gitops/overlays/test
+          kustomize edit set image am-video-picker="${REGISTRY}:${TAG}"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add kustomization.yaml
+          git commit -m "release(am-video-picker): ${TAG}" || echo "No manifest change"
+          BRANCH="release/am-video-picker-${TAG}"
+          if git push origin HEAD:main; then
+            echo "Pushed overlay update directly to main"
+          else
+            echo "Direct push to main was rejected; opening a pull request"
+            git push origin HEAD:"refs/heads/${BRANCH}" --force
+            if ! gh pr create --base main --head "${BRANCH}" \
+              --title "release(am-video-picker): ${TAG}" \
+              --body "Automated overlay update for image tag ${TAG}."; then
+              echo "PR may already exist:"
+              gh pr list --head "${BRANCH}" --json url --jq '.[0].url' || true
+            fi
+          fi
