@@ -101,6 +101,20 @@ npm run preview
 
 `dist/` 为纯静态构建结果，可部署到静态网站托管服务，但不纳入 Git。
 
+## 部署
+
+测试环境部署在 `angrymiao-test`：<https://video-picker.angrymiao.com>（DNS A 记录指向 `47.112.103.82`）。
+
+- 镜像：`registry.cn-shenzhen.aliyuncs.com/angrymiao/am-video-picker:sha-<commit>`
+- 镜像构建：`app/Dockerfile`（Node 构建 + nginx 静态托管，`/healthz` 健康检查）
+- Kubernetes 清单：`deploy/gitops/base` 与 `deploy/gitops/overlays/test`
+- Argo CD：Application `am-video-picker-test`（AppProject `am-video-picker`），手动 Sync
+- GitHub Actions（`.github/workflows/ci.yml`）：
+  - PR：lint、构建、`kustomize build` 校验
+  - 推送 `v*` tag 或手动 dispatch：构建并推送镜像，自动更新 `overlays/test` 的镜像 tag
+- 发布前提：仓库 Actions Secrets 配置 `ACR_USERNAME`、`ACR_PASSWORD`
+- 回滚：用旧 tag 手动 dispatch（`push_image=false`、`release=true`），或 revert overlay commit 后在 Argo CD 手动 Sync
+
 ## 项目结构
 
 ```text
