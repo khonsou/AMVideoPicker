@@ -2,8 +2,8 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: angrymiao-test
 resources:
-  - ../../base
+- ../../base
 images:
-  - name: am-video-picker
-    newName: registry-vpc.cn-shenzhen.aliyuncs.com/angrymiao/am-video-picker
-    newTag: sha-b77600459f4c
+- name: am-video-picker
+  newName: registry-vpc.cn-shenzhen.aliyuncs.com/angrymiao/am-video-picker
+  newTag: sha-5f88d71cfe4d
