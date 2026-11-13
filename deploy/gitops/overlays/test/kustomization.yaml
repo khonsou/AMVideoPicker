@@ -6,4 +6,4 @@ resources:
 images:
   - name: am-video-picker
     newName: registry-vpc.cn-shenzhen.aliyuncs.com/angrymiao/am-video-picker
-    newTag: sha-bootstrap
+    newTag: sha-ca618ac7b01b
